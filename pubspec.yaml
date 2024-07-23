@@ -28,6 +28,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  page_view_dot_indicator: ^2.3.0
   flutter:
     sdk: flutter
 
@@ -52,6 +53,10 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/sodaicon 1.png
+    - assets/soda 1.png
+    - assets/soda 2.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
